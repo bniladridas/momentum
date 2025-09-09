@@ -11,11 +11,11 @@ repository = "https://github.com/facebookresearch/momentum"
 
 [build-dependencies]
 boost = ">=1.85.0,<2"
-c-compiler = "1.10.0"  # Pinned to match clang-format 18.1.8
+c-compiler = "==1.10.0"  # Pinned to match clang-format 18.1.8
 clang-format = "==18.1.8"
 cmake = ">=4.0.1,<5"
-cxx-compiler = "1.10.0"  # Pinned to match clang-format 18.1.8
-clang = "18.1.8"  # Explicitly specify clang version
+cxx-compiler = "==1.10.0"  # Pinned to match clang-format 18.1.8
+clang = "==18.1.8"  # Explicitly specify clang version
 gtest = ">=1.16.0,<2"
 ninja = ">=1.12.1,<2"
 rerun-sdk = ">=0.22.1,<0.23"
